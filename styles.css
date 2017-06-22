@@ -20,6 +20,10 @@ footer {
     text-align: center;
 }
 
+td {
+    width: 3em;
+}
+
 .table {
     text-align: center;
 }
@@ -47,8 +51,14 @@ footer {
     background: #222;
     color: white;
     text-align: right;
+}
+
+#result {
     font-size: 3rem;
-    width: 18rem;
+}
+
+#history {
+    font-size: 1rem;
 }
 
 #love {
