@@ -21,7 +21,7 @@ footer {
 }
 
 td {
-    width: 3em;
+    width: 3.2em;
 }
 
 .table {
@@ -45,6 +45,10 @@ td {
 .bg-warning,
 .bg-danger {
     color: white;
+}
+
+.calc-btn:hover {
+    cursor: pointer;
 }
 
 #output {
