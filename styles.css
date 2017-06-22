@@ -1,0 +1,61 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background: white url('img/wall4.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+footer {
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+}
+
+.table-bordered td {
+    border: 1px solid #333 !important;
+}
+
+.bg-darkgrey {
+    background-color: darkgray;
+    color: black;
+}
+
+.bg-grey {
+    background-color: lightgrey;
+    color: black;
+}
+
+.bg-warning,
+.bg-danger {
+    color: white;
+}
+
+#output {
+    background: #222;
+    color: white;
+    text-align: right;
+    font-size: 3rem;
+    width: 18rem;
+}
+
+#love {
+    width: 1em;
+    height: 1em;
+}
+
+#calc {
+    font-size: 1.35rem;
+}
