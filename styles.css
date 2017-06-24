@@ -9,8 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    background: white url('img/wall4.jpg') center center no-repeat;
+    background-color: darkgrey;
     background-size: cover;
 }
 
@@ -22,6 +21,7 @@ footer {
 
 td {
     width: 3.2em;
+    padding: 0;
 }
 
 .table {
@@ -33,12 +33,12 @@ td {
 }
 
 .bg-darkgrey {
-    background-color: darkgray;
+    background-color: lightgrey;
     color: black;
 }
 
 .bg-grey {
-    background-color: lightgrey;
+    background-color: #eee;
     color: black;
 }
 
@@ -51,11 +51,36 @@ td {
     cursor: pointer;
 }
 
-#output {
+#no-padding {
+    padding: 0;
+}
+
+#output-wrapper {
     background: #222;
     color: white;
-    text-align: right;
-    font-size: 3rem;
+    font-size: 2rem;
+    overflow: hidden;
+    width: 28rem;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#output {
+    float: right;
+    white-space: nowrap;
+    direction: ltr;
+    text-align: left;
+}
+
+#history {
+    float: right;
+    white-space: nowrap;
+    direction: ltr;
+    text-align: left;
+    font-size: 0.8rem;
 }
 
 #love {
@@ -65,4 +90,9 @@ td {
 
 #calc {
     font-size: 1.35rem;
+}
+
+#calc-equals {
+    vertical-align: middle;
+    font-weight: bold;
 }

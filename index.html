@@ -18,38 +18,45 @@
     <section id="calc">
         <table class="table table-bordered bg-grey">
             <tr>
-                <td colspan="4" id="output">
+                <td colspan="6" id="no-padding">
+                    <div id="output-wrapper">
+                        <span id="output">0</span>
+                        <span id="history">0</span>
+                    </div>
                 </td>
             </tr>
             <tr>
-                <td class="bg-darkgrey calc-btn">AC</td>
-                <td class="bg-darkgrey calc-btn">CE</td>
-                <td class="bg-darkgrey calc-btn calc-math" op="%">&percnt;</td>
-                <td class="bg-warning calc-btn calc-math" op="/">&divide;</td>
-            </tr>
-            <tr>
+                <td class="bg-darkgrey calc-btn" id="ce" rowspan="2">CE</td>
                 <td class="calc-btn calc-number">7</td>
                 <td class="calc-btn calc-number">8</td>
                 <td class="calc-btn calc-number">9</td>
-                <td class="bg-warning calc-btn calc-math" op="*">&times;</td>
+                <td class="bg-warning calc-btn calc-math" op="/">&divide;</td>
+                <td class="bg-warning calc-btn" id="cal-percent" op="%">&percnt;</td>
+
             </tr>
             <tr>
                 <td class="calc-btn calc-number">4</td>
                 <td class="calc-btn calc-number">5</td>
                 <td class="calc-btn calc-number">6</td>
-                <td class="bg-warning calc-btn calc-math" op="-">&minus;</td>
+                <td class="bg-warning calc-btn calc-math" op="*">&times;</td>
+                <td class="bg-danger calc-btn" id="calc-equals" rowspan="3">&equals;</td>
+
             </tr>
             <tr>
+                <td class="bg-darkgrey calc-btn" id="ac" rowspan="2">AC</td>
                 <td class="calc-btn calc-number">1</td>
                 <td class="calc-btn calc-number">2</td>
                 <td class="calc-btn calc-number">3</td>
-                <td class="bg-warning calc-btn calc-math" op="+">&plus;</td>
+                <td class="bg-warning calc-btn calc-math" op="-">&minus;</td>
+
+
             </tr>
             <tr>
                 <td class="calc-btn calc-number" id="calc-zero">0</td>
                 <td class="calc-btn" id="calc-dot">.</td>
-                <td class="calc-btn" id="calc-sign-op">&plus; &#8725; &minus;</td>
-                <td class="bg-danger calc-btn" id="calc-equals">&equals;</td>
+                <td class="calc-btn" id="calc-sign-op">&plus;&#8725;&minus;</td>
+                <td class="bg-warning calc-btn calc-math" op="+">&plus;</td>
+
             </tr>
         </table>
     </section>
