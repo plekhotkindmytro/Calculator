@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #c5d3da;
+    background-color: #4B88A2;
     background-size: cover;
 }
 
@@ -17,6 +17,10 @@ footer {
     font-size: 0.8rem;
     width: 100%;
     text-align: center;
+}
+
+a {
+    color: #ccc;
 }
 
 td {
